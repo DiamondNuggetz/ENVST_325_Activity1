@@ -41,10 +41,10 @@ elev <- c(4960,4926,4857,4840)
 asc <- c(3570,4265,2800,4178)
 roun <- c(17.8,17.9,13.2,16)
 
-peaksTable <- data.frame("Name" = peakNames, "Elevation (ft)" = elev, "Climb Ascent (ft)" = asc, "Round trip length (mi)" = roun)
+peaksTable <- data.frame("Name" = peakNames, "Elevation_(ft)" = elev, "Climb Ascent_(ft)" = asc, "Round trip length (mi)" = roun)
 
 #Prompt 3
 temps_C <- c(-44, 0, 20, 35)
 temps_F <- temps_C*(9/5)+32
 
-avg_snow
+peaksTable$Elevation.m <-peaksTable$Elevation..ft./3.28
