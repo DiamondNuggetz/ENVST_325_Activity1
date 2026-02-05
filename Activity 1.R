@@ -30,16 +30,21 @@
 
 # homework ----
 
+#Prompt 1
 avg_snow <- c(2.5, 3.5, 4.5)
 avg_snow_cm <- avg_snow*2.54
 avg_snow_cm
 
+# Prompt 2
 peakNames <- c('Mount Haystack', 'Mount Skylight', 'Dix Mountain', 'Gray Peak')
 elev <- c(4960,4926,4857,4840)
 asc <- c(3570,4265,2800,4178)
 roun <- c(17.8,17.9,13.2,16)
 
-peaksTable <- data.frame(Name = peakNames,
-                         Elevation (ft) = elev,
-                         Climb Ascent (ft) = asc,
-                         Round trip length (mi) = roun)
+peaksTable <- data.frame("Name" = peakNames, "Elevation (ft)" = elev, "Climb Ascent (ft)" = asc, "Round trip length (mi)" = roun)
+
+#Prompt 3
+temps_C <- c(-44, 0, 20, 35)
+temps_F <- temps_C*(9/5)+32
+
+avg_snow
