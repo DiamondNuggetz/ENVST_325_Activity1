@@ -47,4 +47,10 @@ peaksTable <- data.frame("Name" = peakNames, "Elevation_(ft)" = elev, "Climb Asc
 temps_C <- c(-44, 0, 20, 35)
 temps_F <- temps_C*(9/5)+32
 
+# HW Question 1
 peaksTable$Elevation.m <-peaksTable$Elevation..ft./3.28
+
+#HW Question 2
+
+
+#HW Question 3
