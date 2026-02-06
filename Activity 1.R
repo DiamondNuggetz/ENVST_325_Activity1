@@ -51,6 +51,7 @@ temps_F <- temps_C*(9/5)+32
 peaksTable$Elevation.m <-peaksTable$Elevation..ft./3.28
 
 #HW Question 2
-
+#NA#
 
 #HW Question 3
+max_len <- peaksTable[2,]
